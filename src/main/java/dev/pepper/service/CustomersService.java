@@ -10,6 +10,6 @@ import dev.pepper.integration.CustomerDTO;
 public class CustomersService {
 
     public List<CustomerDTO> list () {
-        return List.of(new CustomerDTO("Joseph Joestar","ohhhnooo@jojo.com"));
+        return List.of(new CustomerDTO("Joseph Joestar 2","ohhhnooo@jojo.com"));
     }
 }
