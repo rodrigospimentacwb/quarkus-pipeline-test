@@ -1,0 +1,13 @@
+name: Quarkus Pipeline Test Workflow
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run
+        run: echo build form PR stated
