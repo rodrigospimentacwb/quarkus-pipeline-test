@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: staging
-      url: 'quarkuspipelinetest.com'
+      url: 'https://quarkuspipelinetest.com'
     needs: build
     steps:
       - name: Run a one-line script
@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: sandbox
-      url: 'quarkuspipelinetest.com'
+      url: 'https://quarkuspipelinetest.com'
     needs: deploy-staging
     steps:
       - name: Run a one-line script
@@ -34,7 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: production
-      url: 'quarkuspipelinetest.com'
+      url: 'https://quarkuspipelinetest.com'
     needs: deploy-sandbox
     steps:
       - name: Run a one-line script
