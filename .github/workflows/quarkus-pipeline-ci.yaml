@@ -1,4 +1,4 @@
-name: Quarkus Pipeline Test Workflow
+name: Quarkus CI for PR
 
 on:
   pull_request:
